@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-hot:hover {}
+.btn {
+    @apply px-3 py-2 border rounded-xl
+}
+.btn-primary {
+    @apply bg-[#D32F2F] text-slate-100 hover:bg-[#F44336]
+}
